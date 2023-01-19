@@ -13,7 +13,7 @@ html {
   justify-content: space-evenly;
   flex-direction: column;
   margin-top: 20px;
-  background-color: #f9e214;
+  background-color: #020200;
 }
 
 .container-fluid {
@@ -21,23 +21,31 @@ html {
 }
 
 .navbar-brand {
-  color: black;
+  color: rgb(247, 218, 5);
 }
 
 .navbar-brand:hover {
   cursor: pointer;
-  color: black;
+  color: rgb(241, 237, 3);
   font-size: 30px;
   font-weight: bold;
 }
 
 .nav-item {
-  color: black;
+  color: rgb(241, 237, 3);
+}
+
+.nav-link {
+  color: rgb(241, 237, 3);
+}
+
+.nav-link:hover {
+  color: rgb(241, 237, 3);
 }
 
 .nav-item:hover {
   cursor: pointer;
-  color: black;
+  color: rgb(241, 237, 3);
   font-size: 30px;
   font-weight: bold;
 }
@@ -125,6 +133,6 @@ html {
 .carousel-slide {
   margin: 0 auto;
   border-width: 4px;
-  border-color: black;
+  border-color: rgb(241, 237, 3);
   border-radius: 5px;
 }
