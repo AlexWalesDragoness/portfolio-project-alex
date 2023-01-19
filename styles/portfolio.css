@@ -12,7 +12,8 @@ html {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  margin-top: 20px;
+  margin: 20px 20px;
+  padding: 80px 80px;
   background-color: #020200;
 }
 
@@ -53,12 +54,16 @@ html {
 #header {
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   width: 1000px;
   height: 150px;
 
   background: hsl(0, 0%, 0%);
   border: 4px solid #f9e214;
+}
+
+.grid {
+  margin: 0, auto;
 }
 
 .card-title {
@@ -98,7 +103,6 @@ html {
 
 .row {
   margin: 20px 20px;
-  justify-content: center;
 }
 
 #title {
@@ -125,14 +129,54 @@ html {
   margin: 0 auto;
 }
 
-.carousel-inner {
+.carousel-inner .item-img {
   max-width: 50%;
-  margin: 0 auto;
+  margin: auto;
   display: flex;
 }
 .carousel-slide {
-  margin: 0 auto;
+  max-width: 50%;
+  margin: auto;
   border-width: 4px;
   border-color: rgb(241, 237, 3);
   border-radius: 5px;
+}
+
+#instagram-icon {
+  color: #f9e214;
+}
+
+#facebook-icon {
+  color: #f9e214;
+}
+
+#navbar-btn {
+  color: #f9e214;
+}
+
+#swansea {
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f9e214;
+}
+
+#contact-us {
+  color: #f9e214;
+  text-align: center;
+  margin: 20px 20px;
+}
+
+#towns {
+  color: #f9e214;
+  text-align: center;
+  margin: 20px 20px;
+}
+
+#fablass {
+  color: #f9e214;
+  text-align: center;
+  margin: 20px 20px;
 }
