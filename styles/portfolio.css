@@ -263,3 +263,8 @@ html {
   color: var(--secondary-color);
   padding: 20px 20px;
 }
+
+#daniel {
+  text-align: center;
+  color: var(--secondary-color);
+}
