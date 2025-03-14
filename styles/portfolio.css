@@ -268,3 +268,33 @@ html {
   text-align: center;
   color: var(--secondary-color);
 }
+
+#email-link {
+  color: var(--secondary-color);
+  font-size: 20px;
+  text-align: center;
+}
+
+#email-link:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#instagram-icon {
+  margin: 10px 20px;
+}
+
+#instagram-icon:hover {
+  color: red;
+  cursor: pointer;
+}
+#facebook-icon:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#githubnetlifylinks {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
